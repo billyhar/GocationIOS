@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28139BF21EB437E400AD81ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28139BF11EB437E400AD81ED /* GoogleService-Info.plist */; };
+		2835AFD31EA627E1003BB18E /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2835AFD21EA627E1003BB18E /* login_bg.png */; };
+		2835AFD51EA62982003BB18E /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835AFD41EA62982003BB18E /* BeaconController.swift */; };
+		2839BE391EA31E9E00B188DA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE361EA31E9E00B188DA /* Bolts.framework */; };
+		2839BE3A1EA31E9E00B188DA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE361EA31E9E00B188DA /* Bolts.framework */; };
+		2839BE3B1EA31E9E00B188DA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE361EA31E9E00B188DA /* Bolts.framework */; };
+		2839BE3C1EA31E9E00B188DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE371EA31E9E00B188DA /* FBSDKLoginKit.framework */; };
+		2839BE3D1EA31E9E00B188DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE371EA31E9E00B188DA /* FBSDKLoginKit.framework */; };
+		2839BE3E1EA31E9E00B188DA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE371EA31E9E00B188DA /* FBSDKLoginKit.framework */; };
+		2839BE3F1EA31E9E00B188DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE381EA31E9E00B188DA /* FBSDKShareKit.framework */; };
+		2839BE401EA31E9E00B188DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE381EA31E9E00B188DA /* FBSDKShareKit.framework */; };
+		2839BE411EA31E9E00B188DA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE381EA31E9E00B188DA /* FBSDKShareKit.framework */; };
+		2839BE461EA4B21000B188DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2839BE451EA4B21000B188DA /* HomeViewController.swift */; };
+		283E8DC91EB5E84C0071CBF8 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E8DC81EB5E84C0071CBF8 /* ProfileController.swift */; };
+		28A816DB1EA1AF9800CC0BD1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A816DA1EA1AF9800CC0BD1 /* FBSDKCoreKit.framework */; };
+		28AC2CD91EB1B6A9003660FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC2CD81EB1B6A9003660FF /* MapKit.framework */; };
+		28D5D3291EB1F5D30020020A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D3261EB1F5D30020020A /* LoginViewController.swift */; };
+		28D5D32A1EB1F5D30020020A /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D3271EB1F5D30020020A /* ChannelListViewController.swift */; };
+		28D5D32B1EB1F5D30020020A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D3281EB1F5D30020020A /* ChatViewController.swift */; };
+		28D5D32E1EB1F6030020020A /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D32D1EB1F6030020020A /* CreateChannelCell.swift */; };
+		28D5D3301EB1F61C0020020A /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D32F1EB1F61C0020020A /* UIImage+Gif.swift */; };
+		28D5D3321EB1F7CA0020020A /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D3311EB1F7CA0020020A /* Channel.swift */; };
+		28E2BEC81EA75F160015B029 /* FacebookFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BEC71EA75F160015B029 /* FacebookFriends.swift */; };
 		28ED3CA41EA0E776000E9E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3CA31EA0E776000E9E16 /* AppDelegate.swift */; };
 		28ED3CA61EA0E776000E9E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3CA51EA0E776000E9E16 /* ViewController.swift */; };
 		28ED3CA91EA0E776000E9E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ED3CA71EA0E776000E9E16 /* Main.storyboard */; };
@@ -14,6 +37,9 @@
 		28ED3CAE1EA0E776000E9E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ED3CAC1EA0E776000E9E16 /* LaunchScreen.storyboard */; };
 		28ED3CB91EA0E776000E9E16 /* GocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3CB81EA0E776000E9E16 /* GocationTests.swift */; };
 		28ED3CC41EA0E776000E9E16 /* GocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3CC31EA0E776000E9E16 /* GocationUITests.swift */; };
+		52F8C600138818FF8260B43C /* Pods_Gocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55288EE1C84D4721241ED953 /* Pods_Gocation.framework */; };
+		ABA406EAAAFD909D4801160B /* Pods_GocationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0828411D37312765F4407C6E /* Pods_GocationTests.framework */; };
+		CC362035A021C7560B19B630 /* Pods_GocationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BC5F89A142C8C2F24F0C18 /* Pods_GocationUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01526BCD63AD1599D52A271D /* Pods-GocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GocationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GocationTests/Pods-GocationTests.release.xcconfig"; sourceTree = "<group>"; };
+		027B1309B9F2555F461EC850 /* Pods-GocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GocationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GocationTests/Pods-GocationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0828411D37312765F4407C6E /* Pods_GocationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GocationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28139BF11EB437E400AD81ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2835AFD21EA627E1003BB18E /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_bg.png; path = assets/login_bg.png; sourceTree = SOURCE_ROOT; };
+		2835AFD41EA62982003BB18E /* BeaconController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconController.swift; sourceTree = "<group>"; };
+		2839BE361EA31E9E00B188DA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		2839BE371EA31E9E00B188DA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2839BE381EA31E9E00B188DA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2839BE441EA3381E00B188DA /* Gocation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gocation.entitlements; sourceTree = "<group>"; };
+		2839BE451EA4B21000B188DA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		283E8DC81EB5E84C0071CBF8 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		28A816DA1EA1AF9800CC0BD1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		28AC2CD81EB1B6A9003660FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		28D5D3261EB1F5D30020020A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		28D5D3271EB1F5D30020020A /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
+		28D5D3281EB1F5D30020020A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		28D5D32D1EB1F6030020020A /* CreateChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
+		28D5D32F1EB1F61C0020020A /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		28D5D3311EB1F7CA0020020A /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		28E2BEC71EA75F160015B029 /* FacebookFriends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookFriends.swift; sourceTree = "<group>"; };
 		28ED3CA01EA0E775000E9E16 /* Gocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ED3CA31EA0E776000E9E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28ED3CA51EA0E776000E9E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,12 @@
 		28ED3CBF1EA0E776000E9E16 /* GocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ED3CC31EA0E776000E9E16 /* GocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GocationUITests.swift; sourceTree = "<group>"; };
 		28ED3CC51EA0E776000E9E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3817391765BE9585C5A31972 /* Pods-Gocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gocation/Pods-Gocation.debug.xcconfig"; sourceTree = "<group>"; };
+		45963F623A90DB29578263D9 /* Pods-GocationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GocationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GocationUITests/Pods-GocationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55288EE1C84D4721241ED953 /* Pods_Gocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BC5F89A142C8C2F24F0C18 /* Pods_GocationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GocationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D488CF0959CCE5EA9EB77D /* Pods-Gocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gocation/Pods-Gocation.release.xcconfig"; sourceTree = "<group>"; };
+		CD172B877E47463E0980E5B0 /* Pods-GocationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GocationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GocationUITests/Pods-GocationUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2839BE391EA31E9E00B188DA /* Bolts.framework in Frameworks */,
+				52F8C600138818FF8260B43C /* Pods_Gocation.framework in Frameworks */,
+				2839BE3F1EA31E9E00B188DA /* FBSDKShareKit.framework in Frameworks */,
+				2839BE3C1EA31E9E00B188DA /* FBSDKLoginKit.framework in Frameworks */,
+				28AC2CD91EB1B6A9003660FF /* MapKit.framework in Frameworks */,
+				28A816DB1EA1AF9800CC0BD1 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +120,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2839BE401EA31E9E00B188DA /* FBSDKShareKit.framework in Frameworks */,
+				ABA406EAAAFD909D4801160B /* Pods_GocationTests.framework in Frameworks */,
+				2839BE3A1EA31E9E00B188DA /* Bolts.framework in Frameworks */,
+				2839BE3D1EA31E9E00B188DA /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +131,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2839BE411EA31E9E00B188DA /* FBSDKShareKit.framework in Frameworks */,
+				CC362035A021C7560B19B630 /* Pods_GocationUITests.framework in Frameworks */,
+				2839BE3B1EA31E9E00B188DA /* Bolts.framework in Frameworks */,
+				2839BE3E1EA31E9E00B188DA /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D5D3331EB1F81C0020020A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28D5D3311EB1F7CA0020020A /* Channel.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		28D5D3341EB1F8260020020A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28D5D3271EB1F5D30020020A /* ChannelListViewController.swift */,
+				28D5D3261EB1F5D30020020A /* LoginViewController.swift */,
+				28D5D3281EB1F5D30020020A /* ChatViewController.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		28D5D3351EB1F8570020020A /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				28D5D32D1EB1F6030020020A /* CreateChannelCell.swift */,
+			);
+			name = Layout;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		28D5D3361EB1F8700020020A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28D5D32F1EB1F61C0020020A /* UIImage+Gif.swift */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		28ED3C971EA0E775000E9E16 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +186,8 @@
 				28ED3CB71EA0E776000E9E16 /* GocationTests */,
 				28ED3CC21EA0E776000E9E16 /* GocationUITests */,
 				28ED3CA11EA0E775000E9E16 /* Products */,
+				31F48C83834DCA87A68823FF /* Pods */,
+				F181EC5C8432307255ABF632 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +204,23 @@
 		28ED3CA21EA0E775000E9E16 /* Gocation */ = {
 			isa = PBXGroup;
 			children = (
+				2839BE441EA3381E00B188DA /* Gocation.entitlements */,
 				28ED3CA31EA0E776000E9E16 /* AppDelegate.swift */,
 				28ED3CA51EA0E776000E9E16 /* ViewController.swift */,
 				28ED3CA71EA0E776000E9E16 /* Main.storyboard */,
+				283E8DC81EB5E84C0071CBF8 /* ProfileController.swift */,
+				28E2BEC71EA75F160015B029 /* FacebookFriends.swift */,
+				2835AFD41EA62982003BB18E /* BeaconController.swift */,
+				2839BE451EA4B21000B188DA /* HomeViewController.swift */,
 				28ED3CAA1EA0E776000E9E16 /* Assets.xcassets */,
+				2835AFD21EA627E1003BB18E /* login_bg.png */,
 				28ED3CAC1EA0E776000E9E16 /* LaunchScreen.storyboard */,
 				28ED3CAF1EA0E776000E9E16 /* Info.plist */,
+				28139BF11EB437E400AD81ED /* GoogleService-Info.plist */,
+				28D5D3351EB1F8570020020A /* Layout */,
+				28D5D3361EB1F8700020020A /* Supporting Files */,
+				28D5D3331EB1F81C0020020A /* Model */,
+				28D5D3341EB1F8260020020A /* Controller */,
 			);
 			path = Gocation;
 			sourceTree = "<group>";
@@ -125,6 +243,34 @@
 			path = GocationUITests;
 			sourceTree = "<group>";
 		};
+		31F48C83834DCA87A68823FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3817391765BE9585C5A31972 /* Pods-Gocation.debug.xcconfig */,
+				A9D488CF0959CCE5EA9EB77D /* Pods-Gocation.release.xcconfig */,
+				027B1309B9F2555F461EC850 /* Pods-GocationTests.debug.xcconfig */,
+				01526BCD63AD1599D52A271D /* Pods-GocationTests.release.xcconfig */,
+				45963F623A90DB29578263D9 /* Pods-GocationUITests.debug.xcconfig */,
+				CD172B877E47463E0980E5B0 /* Pods-GocationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F181EC5C8432307255ABF632 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28AC2CD81EB1B6A9003660FF /* MapKit.framework */,
+				2839BE361EA31E9E00B188DA /* Bolts.framework */,
+				2839BE371EA31E9E00B188DA /* FBSDKLoginKit.framework */,
+				2839BE381EA31E9E00B188DA /* FBSDKShareKit.framework */,
+				28A816DA1EA1AF9800CC0BD1 /* FBSDKCoreKit.framework */,
+				55288EE1C84D4721241ED953 /* Pods_Gocation.framework */,
+				0828411D37312765F4407C6E /* Pods_GocationTests.framework */,
+				A6BC5F89A142C8C2F24F0C18 /* Pods_GocationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28ED3CC81EA0E776000E9E16 /* Build configuration list for PBXNativeTarget "Gocation" */;
 			buildPhases = (
+				AA2CAFDA0C61C69A41BCAA2F /* [CP] Check Pods Manifest.lock */,
 				28ED3C9C1EA0E775000E9E16 /* Sources */,
 				28ED3C9D1EA0E775000E9E16 /* Frameworks */,
 				28ED3C9E1EA0E775000E9E16 /* Resources */,
+				C8FFE44F8890BD24FD42CFE1 /* [CP] Embed Pods Frameworks */,
+				1964AC9FADA1DBF5A25EDF64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +298,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28ED3CCB1EA0E776000E9E16 /* Build configuration list for PBXNativeTarget "GocationTests" */;
 			buildPhases = (
+				F6E0119550AC931E2365C71C /* [CP] Check Pods Manifest.lock */,
 				28ED3CB01EA0E776000E9E16 /* Sources */,
 				28ED3CB11EA0E776000E9E16 /* Frameworks */,
 				28ED3CB21EA0E776000E9E16 /* Resources */,
+				B2FB030699C31F0BFA495056 /* [CP] Embed Pods Frameworks */,
+				4EB4DAA7A3F767053F8750E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28ED3CCE1EA0E776000E9E16 /* Build configuration list for PBXNativeTarget "GocationUITests" */;
 			buildPhases = (
+				A9E21386DE216D421825CD56 /* [CP] Check Pods Manifest.lock */,
 				28ED3CBB1EA0E776000E9E16 /* Sources */,
 				28ED3CBC1EA0E776000E9E16 /* Frameworks */,
 				28ED3CBD1EA0E776000E9E16 /* Resources */,
+				D7960C03F7E649376A5EF3B2 /* [CP] Embed Pods Frameworks */,
+				8B4EA4385BC3901317C300C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +348,22 @@
 				TargetAttributes = {
 					28ED3C9F1EA0E775000E9E16 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = T4723YYY84;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					28ED3CB31EA0E776000E9E16 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -233,6 +403,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28ED3CAE1EA0E776000E9E16 /* LaunchScreen.storyboard in Resources */,
+				28139BF21EB437E400AD81ED /* GoogleService-Info.plist in Resources */,
+				2835AFD31EA627E1003BB18E /* login_bg.png in Resources */,
 				28ED3CAB1EA0E776000E9E16 /* Assets.xcassets in Resources */,
 				28ED3CA91EA0E776000E9E16 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +426,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1964AC9FADA1DBF5A25EDF64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gocation/Pods-Gocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB4DAA7A3F767053F8750E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GocationTests/Pods-GocationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4EA4385BC3901317C300C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GocationUITests/Pods-GocationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E21386DE216D421825CD56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2CAFDA0C61C69A41BCAA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FB030699C31F0BFA495056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GocationTests/Pods-GocationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FFE44F8890BD24FD42CFE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gocation/Pods-Gocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7960C03F7E649376A5EF3B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GocationUITests/Pods-GocationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E0119550AC931E2365C71C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28ED3C9C1EA0E775000E9E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D5D3291EB1F5D30020020A /* LoginViewController.swift in Sources */,
 				28ED3CA61EA0E776000E9E16 /* ViewController.swift in Sources */,
+				28D5D3321EB1F7CA0020020A /* Channel.swift in Sources */,
+				28D5D32E1EB1F6030020020A /* CreateChannelCell.swift in Sources */,
+				28D5D32B1EB1F5D30020020A /* ChatViewController.swift in Sources */,
+				28D5D32A1EB1F5D30020020A /* ChannelListViewController.swift in Sources */,
+				2835AFD51EA62982003BB18E /* BeaconController.swift in Sources */,
+				28E2BEC81EA75F160015B029 /* FacebookFriends.swift in Sources */,
 				28ED3CA41EA0E776000E9E16 /* AppDelegate.swift in Sources */,
+				28D5D3301EB1F61C0020020A /* UIImage+Gif.swift in Sources */,
+				2839BE461EA4B21000B188DA /* HomeViewController.swift in Sources */,
+				283E8DC91EB5E84C0071CBF8 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,11 +730,20 @@
 		};
 		28ED3CC91EA0E776000E9E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3817391765BE9585C5A31972 /* Pods-Gocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gocation/Gocation.entitlements;
+				DEVELOPMENT_TEAM = T4723YYY84;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Billy/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Gocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.billyharris.Gocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.billyharris.GocationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -422,11 +751,20 @@
 		};
 		28ED3CCA1EA0E776000E9E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D488CF0959CCE5EA9EB77D /* Pods-Gocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gocation/Gocation.entitlements;
+				DEVELOPMENT_TEAM = T4723YYY84;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Billy/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Gocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.billyharris.Gocation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.billyharris.GocationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,6 +772,7 @@
 		};
 		28ED3CCC1EA0E776000E9E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027B1309B9F2555F461EC850 /* Pods-GocationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +787,7 @@
 		};
 		28ED3CCD1EA0E776000E9E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01526BCD63AD1599D52A271D /* Pods-GocationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +802,7 @@
 		};
 		28ED3CCF1EA0E776000E9E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45963F623A90DB29578263D9 /* Pods-GocationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GocationUITests/Info.plist;
@@ -475,6 +816,7 @@
 		};
 		28ED3CD01EA0E776000E9E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD172B877E47463E0980E5B0 /* Pods-GocationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GocationUITests/Info.plist;
@@ -505,6 +847,7 @@
 				28ED3CCA1EA0E776000E9E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28ED3CCB1EA0E776000E9E16 /* Build configuration list for PBXNativeTarget "GocationTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +856,7 @@
 				28ED3CCD1EA0E776000E9E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28ED3CCE1EA0E776000E9E16 /* Build configuration list for PBXNativeTarget "GocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +865,7 @@
 				28ED3CD01EA0E776000E9E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
