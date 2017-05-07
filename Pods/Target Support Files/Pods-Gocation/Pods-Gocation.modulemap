@@ -1,0 +1,6 @@
+framework module Pods_Gocation {
+  umbrella header "Pods-Gocation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_GocationUITests {
+  umbrella header "Pods-GocationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
