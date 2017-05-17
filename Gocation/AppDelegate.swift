@@ -14,11 +14,10 @@ import CoreLocation
 import KontaktSDK
 import UserNotifications
 
-@UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
     var locationManager = CLLocationManager()
-    
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -33,10 +32,14 @@ import UserNotifications
         
         //        Intialising the Notification
         let center = UNUserNotificationCenter.current()
+        UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate
         center.requestAuthorization(options:[.alert, .sound]) { (granted, error) in
             // Enable or disable features based on authorization.
-            
-
+            if granted{
+                application.registerForRemoteNotifications()
+            } else{
+                print("User Notification Permission Denied: \(error?.localizedDescription)")
+            }
         }
         
 
@@ -65,33 +68,26 @@ import UserNotifications
         return true
     }
     
-//        KONTAKT API SHIT
+    func tokenString(_ deviceToken:Data) -> String{
+        let bytes = [UInt8](deviceToken)
+        var token = ""
+        for byte in bytes{
+            token += String(format:"%02x",byte)
+        }
+            return token
+    }
         
-//        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-//            // Set API key
-//            Kontakt.setAPIKey("TilAywIFTmzGiRRWwjEVXXfGwUfnxcMM")
-//            
-//            return true
-//        }
-//        
+        //REMOTE NOTIFICATIONS
     
-        
-
-
-        
-
-        
-        
-
-        
-        
-        
-        
-        
-        
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("Successful registration. Token is:")
+        print(tokenString(deviceToken))
+    }
   
     
-    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register")
+    }
     
     
     
@@ -105,6 +101,7 @@ import UserNotifications
     }
     
 
+    
     
    
     
@@ -124,7 +121,7 @@ import UserNotifications
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    
+
     
     
     
@@ -189,6 +186,10 @@ import UserNotifications
         }
     }
     
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .sound, .badge])
+    }
     
 }
 

@@ -1,0 +1,12 @@
+{
+    "aps":{
+        "alert":{
+            "title":"Gocation",
+            "body":"Come to the main stage for free drinks"
+            },
+        "badge":42,
+        "sound":"default"
+        "category":"pizza.category"
+    }
+
+}

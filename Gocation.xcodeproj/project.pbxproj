@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28139BF21EB437E400AD81ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28139BF11EB437E400AD81ED /* GoogleService-Info.plist */; };
 		2835AFD31EA627E1003BB18E /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2835AFD21EA627E1003BB18E /* login_bg.png */; };
 		2835AFD51EA62982003BB18E /* BeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2835AFD41EA62982003BB18E /* BeaconController.swift */; };
 		2839BE391EA31E9E00B188DA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839BE361EA31E9E00B188DA /* Bolts.framework */; };
@@ -29,6 +28,8 @@
 		28D5D32E1EB1F6030020020A /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D32D1EB1F6030020020A /* CreateChannelCell.swift */; };
 		28D5D3301EB1F61C0020020A /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D32F1EB1F61C0020020A /* UIImage+Gif.swift */; };
 		28D5D3321EB1F7CA0020020A /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D3311EB1F7CA0020020A /* Channel.swift */; };
+		28DFBEBD1ECC6E9E0000BD3C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28DFBEBC1ECC6E9E0000BD3C /* GoogleService-Info.plist */; };
+		28DFBEBF1ECC7E840000BD3C /* gocationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 28DFBEBE1ECC7E840000BD3C /* gocationPayload.apns */; };
 		28E2BEC81EA75F160015B029 /* FacebookFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2BEC71EA75F160015B029 /* FacebookFriends.swift */; };
 		28ED3CA41EA0E776000E9E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3CA31EA0E776000E9E16 /* AppDelegate.swift */; };
 		28ED3CA61EA0E776000E9E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3CA51EA0E776000E9E16 /* ViewController.swift */; };
@@ -63,7 +64,6 @@
 		01526BCD63AD1599D52A271D /* Pods-GocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GocationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GocationTests/Pods-GocationTests.release.xcconfig"; sourceTree = "<group>"; };
 		027B1309B9F2555F461EC850 /* Pods-GocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GocationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GocationTests/Pods-GocationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0828411D37312765F4407C6E /* Pods_GocationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GocationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28139BF11EB437E400AD81ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2835AFD21EA627E1003BB18E /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_bg.png; path = assets/login_bg.png; sourceTree = SOURCE_ROOT; };
 		2835AFD41EA62982003BB18E /* BeaconController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconController.swift; sourceTree = "<group>"; };
 		2839BE361EA31E9E00B188DA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
@@ -80,6 +80,8 @@
 		28D5D32D1EB1F6030020020A /* CreateChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
 		28D5D32F1EB1F61C0020020A /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		28D5D3311EB1F7CA0020020A /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		28DFBEBC1ECC6E9E0000BD3C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28DFBEBE1ECC7E840000BD3C /* gocationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gocationPayload.apns; sourceTree = "<group>"; };
 		28E2BEC71EA75F160015B029 /* FacebookFriends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookFriends.swift; sourceTree = "<group>"; };
 		28ED3CA01EA0E775000E9E16 /* Gocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ED3CA31EA0E776000E9E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		28ED3C971EA0E775000E9E16 = {
 			isa = PBXGroup;
 			children = (
+				28DFBEBE1ECC7E840000BD3C /* gocationPayload.apns */,
 				28ED3CA21EA0E775000E9E16 /* Gocation */,
 				28ED3CB71EA0E776000E9E16 /* GocationTests */,
 				28ED3CC21EA0E776000E9E16 /* GocationUITests */,
@@ -216,7 +219,7 @@
 				2835AFD21EA627E1003BB18E /* login_bg.png */,
 				28ED3CAC1EA0E776000E9E16 /* LaunchScreen.storyboard */,
 				28ED3CAF1EA0E776000E9E16 /* Info.plist */,
-				28139BF11EB437E400AD81ED /* GoogleService-Info.plist */,
+				28DFBEBC1ECC6E9E0000BD3C /* GoogleService-Info.plist */,
 				28D5D3351EB1F8570020020A /* Layout */,
 				28D5D3361EB1F8700020020A /* Supporting Files */,
 				28D5D3331EB1F81C0020020A /* Model */,
@@ -349,7 +352,7 @@
 					28ED3C9F1EA0E775000E9E16 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = BVD5XU4Y7R;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -361,7 +364,7 @@
 								enabled = 1;
 							};
 							com.apple.Push = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -403,9 +406,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28ED3CAE1EA0E776000E9E16 /* LaunchScreen.storyboard in Resources */,
-				28139BF21EB437E400AD81ED /* GoogleService-Info.plist in Resources */,
+				28DFBEBD1ECC6E9E0000BD3C /* GoogleService-Info.plist in Resources */,
 				2835AFD31EA627E1003BB18E /* login_bg.png in Resources */,
 				28ED3CAB1EA0E776000E9E16 /* Assets.xcassets in Resources */,
+				28DFBEBF1ECC7E840000BD3C /* gocationPayload.apns in Resources */,
 				28ED3CA91EA0E776000E9E16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,19 +738,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Gocation/Gocation.entitlements;
-				DEVELOPMENT_TEAM = BVD5XU4Y7R;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					/Users/Billy/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = Gocation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billyharris.gocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0d6774c-7d3b-4da2-9cca-07dceb4c911c";
-				PROVISIONING_PROFILE_SPECIFIER = "Billy Harris Gocation";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -757,19 +762,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Gocation/Gocation.entitlements;
-				DEVELOPMENT_TEAM = BVD5XU4Y7R;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					/Users/Billy/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = Gocation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.billyharris.gocation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a0d6774c-7d3b-4da2-9cca-07dceb4c911c";
-				PROVISIONING_PROFILE_SPECIFIER = "Billy Harris Gocation";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
