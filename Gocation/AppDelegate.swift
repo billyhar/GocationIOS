@@ -65,6 +65,9 @@ import UserNotifications
         
         UIApplication.shared.cancelAllLocalNotifications()
         
+        
+        
+        
         return true
     }
     
@@ -127,7 +130,7 @@ import UserNotifications
     
     //LOCAL NOTIFICATION SHIT
     
-    //Main Stage Beacon
+    //Initializing beacons
     
     func applicationDidEnterBackground(_ application: UIApplication) {
         // When Approaching the Beacon
@@ -135,11 +138,20 @@ import UserNotifications
         
         // When Leaving the Beacon Region
         scheduleLocalNotification(false, tips: "You are leaving the main stage")
+        
+//        // When Approaching the Beacon
+//        scheduleLocalNotification(true, jungle: "You are approaching the Jungle stage")
+//        
+//        // When Leaving the Beacon Region
+//        scheduleLocalNotification(false, jungle: "You are leaving the Jungle stage")
     }
     
     func applicationDidBecomeActive(_ application: UIApplication) {
         UIApplication.shared.applicationIconBadgeNumber = 0;
     }
+    
+    
+    //main stage
     
     func scheduleLocalNotification(_ onEntry:Bool, tips:String!){
         
@@ -151,6 +163,10 @@ import UserNotifications
             
             let region = CLBeaconRegion(proximityUUID: UUID(uuidString: "3d80997d-5415-4f7e-8117-82ce9b407e3e")!,
                                         major: 51401, minor: 14274, identifier: tips)
+            
+            _ = CLBeaconRegion(proximityUUID: UUID(uuidString: "3d80997d-5415-4f7e-8117-82ce9b407e3e")!, major: 51401, minor: 14274, identifier: tips)
+            
+            
             region.notifyOnEntry = onEntry
             region.notifyOnExit = !onEntry;
             let trigger = UNLocationNotificationTrigger(region: region, repeats: true)
@@ -180,6 +196,55 @@ import UserNotifications
         }
     }
     
+    
+//    //jungle stage
+//    
+//    func scheduleLocalNotification(_ onEntry:Bool, jungle:String!){
+//        
+//        if #available(iOS 10,*) {
+//            let content = UNMutableNotificationContent();
+//            content.title = "Your Activity";
+//            content.body = String(jungle);
+//            content.sound = UNNotificationSound.default();
+//            
+//            let region = CLBeaconRegion(proximityUUID: UUID(uuidString: "3d80997d-5415-4f7e-8117-82ce9b407e3e")!,
+//                                        major: 51401, minor: 14274, identifier: jungle)
+//            
+//            let region = CLBeaconRegion(proximityUUID: UUID(uuidString: "3d80997d-5415-4f7e-8117-82ce9b407e3e")!,
+//                                        major: 51401, minor: 14274, identifier: jungle)
+//            
+//            
+//            region.notifyOnEntry = onEntry
+//            region.notifyOnExit = !onEntry;
+//            let trigger = UNLocationNotificationTrigger(region: region, repeats: true)
+//            
+//            let notification = UNNotificationRequest(identifier: jungle, content: content,trigger: trigger);
+//            
+//            
+//            //            notification.
+//            
+//            let center = UNUserNotificationCenter.current();
+//            
+//            center.add(notification);
+//        }else{
+//            let messageString = String(jungle)
+//            let notification = UILocalNotification()
+//            notification.alertBody = messageString
+//            notification.region = CLBeaconRegion(proximityUUID: UUID(uuidString: "3d80997d-5415-4f7e-8117-82ce9b407e3e")!,
+//                                                 major: 51401, minor: 14274, identifier: jungle)
+//            
+//            notification.region?.notifyOnEntry = onEntry
+//            notification.region?.notifyOnExit = !onEntry
+//            notification.regionTriggersOnce = false
+//            
+//            notification.applicationIconBadgeNumber = UIApplication.shared.applicationIconBadgeNumber + 1
+//            notification.soundName = UILocalNotificationDefaultSoundName
+//            UIApplication.shared.scheduleLocalNotification(notification)
+//        }
+
+    
+    
+    
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if(status == .authorizedAlways){
             print("Notification Sent")
@@ -187,30 +252,18 @@ import UserNotifications
     }
     
     
+    
+    
+    
+    
+    
+    
+    
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.alert, .sound, .badge])
     }
     
 }
-
-
-
-//// MARK: - CLLocationManagerDelegate
-//extension AppDelegate: CLLocationManagerDelegate {
-//    func locationManager(manager: CLLocationManager!, didExitRegion region: CLRegion!) {
-//        if let beaconRegion = region as? CLBeaconRegion {
-//            var notification = UILocalNotification()
-//            notification.alertBody = "Are you forgetting something?"
-//            notification.soundName = "Default"
-//            UIApplication.shared.presentLocalNotificationNow(notification)
-//        }
-//    }
-
-
-
-
-
-
 
 
 
